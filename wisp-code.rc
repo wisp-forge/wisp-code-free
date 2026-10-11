@@ -1,0 +1,35 @@
+#include <windows.h>
+
+/* Application icon. The value 1 is the ID Windows checks for by
+ * convention — Explorer, the taskbar, and the title bar all look up
+ * the exe's icon under this ID when none is set explicitly. */
+1 ICON "wisp-code.ico"
+
+/* Optional: also declare these so the properties dialog and the
+ * taskbar tooltips have real strings instead of the exe name. */
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION     1,0,0,0
+ PRODUCTVERSION  1,0,0,0
+ FILEFLAGSMASK   0x3fL
+ FILEFLAGS       0x0L
+ FILEOS          VOS_NT_WINDOWS32
+ FILETYPE        VFT_APP
+ FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"     /* US English, Unicode */
+        BEGIN
+            VALUE "FileDescription", "wisp-code"
+            VALUE "FileVersion",     "1.0.0.0"
+            VALUE "InternalName",    "wisp-code"
+            VALUE "OriginalFilename","wisp-code.exe"
+            VALUE "ProductName",     "wisp-code"
+            VALUE "ProductVersion",  "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
