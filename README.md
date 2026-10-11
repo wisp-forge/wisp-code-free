@@ -17,18 +17,6 @@
   One C binary. Linux, macOS, Windows, Termux. Inside any editor's integrated terminal.
 </p>
 
-<p align="center">
-  <a href="#why-wisp-code">Why</a> ·
-  <a href="#how-it-works">How it works</a> ·
-  <a href="#code-mode-and-shell-mode">Modes</a> ·
-  <a href="#runs-everywhere">Runs everywhere</a> ·
-  <a href="#multiple-terminals">Multiple agents</a> ·
-  <a href="#numbers">Numbers</a> ·
-  <a href="#wisp-code-pro">Pro</a> ·
-  <a href="#settings">Settings</a> ·
-  <a href="#build">Build</a>
-</p>
-
 ---
 
 ## Why wisp-code
