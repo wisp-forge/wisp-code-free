@@ -1,6 +1,12 @@
-# wisp-code
+<p align="center">
+  <img src="wisp-code-pro.png" alt="wisp-code" width="50%">
+</p>
 
-**A terminal-native AI coding agent that runs anywhere.**
+<h1 align="center">wisp-code-free</h1>
+
+<p align="center">
+  <strong>A terminal-native AI coding agent that runs anywhere.</strong>
+</p>
 
 Full snapshot transparency. Zero runtime dependencies. No vendor lock-in.
 One C binary. Linux, macOS, Windows, Termux. Inside any editor's integrated terminal.
