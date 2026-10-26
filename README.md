@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="wisp-code-pro.png" alt="wisp-code" width="50%">
+  <img src="wisp-code.png" alt="wisp-code" width="50%">
 </p>
 
 <h1 align="center">wisp-code-free</h1>
